@@ -1,0 +1,406 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /* header start  */
+    .page::after {
+        position: absolute;
+        content: '';
+        width: 0px;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    .page:hover::after {
+        width: 0%;
+    }
+
+    .page.active::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    /* header end  */
+
+    /* banner start  */
+    .banner-main {
+        padding-top: 50px;
+    }
+
+    .banner-content h1 {
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 30px;
+    }
+
+    .banner-content h3 {
+        font-size: 16px;
+    }
+
+    .form-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .form-wrapper h2::after {
+        top: 30px;
+    }
+
+    .form-wrapper p {
+        font-size: 15px;
+    }
+
+    .form-wrapper {
+        padding: 30px 20px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+    }
+
+    /* banner end */
+
+    /*About start*/
+    .about {
+        padding: 50px 0;
+    }
+
+    .png-bg {
+        width: 250px;
+    }
+
+    .about h3 {
+        margin-top: 20px;
+        font-weight: 800;
+        font-size: 14px;
+        font-family: "Poppins", sans-serif;
+        color: #5D2309;
+    }
+
+    .about-content h1 {
+        font-weight: 800;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .about-content p {
+        font-weight: 600;
+        font-family: "Lato", sans-serif;
+        font-size: 15px;
+
+    }
+
+    .about-content ul li {
+        margin: 5px 0;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .about-content ul li span {
+        margin-right: 3px;
+    }
+
+    /*About End*/
+
+
+    /*story end*/
+    .story {
+        padding: 50px 0;
+    }
+
+    /*story section End*/
+
+    /*Testimonial Start*/
+    .testimonial h1 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .carousel-control-prev {
+        left: 66%;
+    }
+
+    .testimonial h3 {
+        letter-spacing: 1px;
+        font-size: 16px;
+    }
+
+    .testimonial h5 {
+        font-size: 16px;
+    }
+
+    /*Testimonial End*/
+    /* why-choose-us start  */
+    .why-choose-us-wrapper {
+        padding: 40px 20px;
+    }
+
+    .why-choose-us-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .why-choose-us-wrapper p {
+        font-size: 14px;
+    }
+
+    .why-choose-us-wrapper li {
+        font-size: 14px;
+    }
+
+    /* Why choose us end  */
+    /* product start  */
+
+    .product {
+        padding: 60px 0;
+    }
+
+    .product-wrapper h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+    }
+
+    /* product end  */
+
+    /* .limited-offer start  */
+    .limited-offer {
+        padding: 60px 0;
+    }
+
+    .limited-offer h1 {
+        font-size: 20px;
+    }
+
+    /* .limited-offer end  */
+
+    /* Contact start  */
+
+    .contact {
+        padding: 60px 0;
+    }
+
+    .contact h1 {
+        font-size: 24px;
+    }
+
+    .contact ul li {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    /* Contact end  */
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header start  */
+    .page::after {
+        position: absolute;
+        content: '';
+        width: 0px;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    .page:hover::after {
+        width: 0%;
+    }
+
+    .page.active::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    /* header end  */
+    /* banner start  */
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    /* banner end */
+
+    /*About Start*/
+    .about {
+        padding: 60px 0;
+    }
+
+    .png-bg {
+        width: 500px;
+        left: 100px;
+    }
+
+
+
+    /*About End*/
+
+    /*Service start*/
+    .service {
+        padding: 30px 0;
+    }
+
+    .service-desc-left-sm {
+        text-align: left;
+    }
+
+    .service-desc-right-sm {
+        text-align: right;
+    }
+
+    /*service end*/
+
+    /*Testimonial start*/
+    .testimonial-inner .testi-comments p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /*Testimonial end*/
+
+
+    .thanks-wrapper h1 {
+        font-size: 40px;
+        color: #fff;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start  */
+    .page::after {
+        position: absolute;
+        content: '';
+        width: 0px;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    .page:hover::after {
+        width: 0%;
+    }
+
+    .page.active::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        height: 0px;
+        background-color: #5D2309;
+        top: 30px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+    }
+
+    /* header end  */
+    /*About Start*/
+    .about {
+        padding-top: 80px;
+    }
+
+    .png-bg {
+        width: 500px;
+        left: 100px;
+    }
+
+
+    /*About End*/
+
+    /*Service start*/
+    .service {
+        padding: 50px 0 50px 0;
+    }
+
+    .service-desc-left-sm {
+        text-align: left;
+    }
+
+    .service-desc-right-sm {
+        text-align: right;
+    }
+
+    /*service end*/
+
+    /*Testimonial start*/
+    .testimonial-inner .testi-comments p {
+        text-align: center;
+    }
+
+    /*Testimonial end*/
+
+    .thanks-wrapper h1 {
+        font-size: 50px;
+        color: #fff;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* banner start  */
+    .banner-content h1 {
+        font-size: 36px;
+    }
+
+    /* banner end */
+
+    /*About Start*/
+    .png-bg {
+        width: 500px;
+        top: 20px;
+        left: 60px;
+        z-index: -1;
+    }
+
+    /*About End*/
+
+    /* .limited-offer start  */
+
+    .limited-offer h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    /* .limited-offer end  */
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
